@@ -1,0 +1,32 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Models (Keep raw starter files, ignore generated/large artifacts)
+data/processed/*.parquet
+models/*.pkl
+models/*.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output Logs & Reports
+*.log
+reports/figures/*.pdf
